@@ -1,0 +1,215 @@
+line_number,Hora,Mensaje,msg_len,hora_segundos,has_warning_or_error,anomaly_score,is_anomaly,anomaly_label
+15:38:01,"Starting Lynis 3.1.6 with PID 145443, build date 2025-10-22","Starting Lynis 3.1.6 with PID 145443, build date 2025-10-22",59,,0,0.24778130324100645,1,Normal
+15:38:01,====,====,4,,0,0.08216984489428547,1,Normal
+15:38:01,"### 2007-2025, CISOfy - https://cisofy.com/lynis/ ###","### 2007-2025, CISOfy - https://cisofy.com/lynis/ ###",53,,0,0.24981475800030267,1,Normal
+15:38:01,Checking permissions of /usr/share/lynis/include/profiles,Checking permissions of /usr/share/lynis/include/profiles,57,,0,0.2508906229263387,1,Normal
+15:38:01,File permissions are OK,File permissions are OK,23,,0,0.10625925906572253,1,Normal
+15:38:01,Reading profile/configuration /etc/lynis/default.prf,Reading profile/configuration /etc/lynis/default.prf,52,,0,0.24828394680299742,1,Normal
+15:38:01,Action: created temporary file /tmp/lynis.ADTbT4xxxf,Action: created temporary file /tmp/lynis.ADTbT4xxxf,52,,0,0.24828394680299742,1,Normal
+15:38:01,Language set via profile to '',Language set via profile to '',30,,0,0.18331401372261025,1,Normal
+15:38:01,Plugin 'authentication' enabled according profile (/etc/lynis/default.prf),Plugin 'authentication' enabled according profile (/etc/lynis/default.prf),74,,0,0.21431693226212628,1,Normal
+15:38:01,Plugin 'compliance' enabled according profile (/etc/lynis/default.prf),Plugin 'compliance' enabled according profile (/etc/lynis/default.prf),70,,0,0.23764931001638084,1,Normal
+15:38:01,Plugin 'configuration' enabled according profile (/etc/lynis/default.prf),Plugin 'configuration' enabled according profile (/etc/lynis/default.prf),73,,0,0.2149148480462285,1,Normal
+15:38:02,Plugin 'control-panels' enabled according profile (/etc/lynis/default.prf),Plugin 'control-panels' enabled according profile (/etc/lynis/default.prf),74,,0,0.21431693226212628,1,Normal
+15:38:02,Plugin 'crypto' enabled according profile (/etc/lynis/default.prf),Plugin 'crypto' enabled according profile (/etc/lynis/default.prf),66,,0,0.25070962473637,1,Normal
+15:38:02,Plugin 'dns' enabled according profile (/etc/lynis/default.prf),Plugin 'dns' enabled according profile (/etc/lynis/default.prf),63,,0,0.2445348941328208,1,Normal
+15:38:02,Plugin 'docker' enabled according profile (/etc/lynis/default.prf),Plugin 'docker' enabled according profile (/etc/lynis/default.prf),66,,0,0.25070962473637,1,Normal
+15:38:02,Plugin 'file-integrity' enabled according profile (/etc/lynis/default.prf),Plugin 'file-integrity' enabled according profile (/etc/lynis/default.prf),74,,0,0.21431693226212628,1,Normal
+15:38:02,Plugin 'file-systems' enabled according profile (/etc/lynis/default.prf),Plugin 'file-systems' enabled according profile (/etc/lynis/default.prf),72,,0,0.22932108229384873,1,Normal
+15:38:02,Plugin 'firewalls' enabled according profile (/etc/lynis/default.prf),Plugin 'firewalls' enabled according profile (/etc/lynis/default.prf),69,,0,0.23540231560428476,1,Normal
+15:38:02,Plugin 'forensics' enabled according profile (/etc/lynis/default.prf),Plugin 'forensics' enabled according profile (/etc/lynis/default.prf),69,,0,0.23540231560428476,1,Normal
+15:38:02,Plugin 'hardware' enabled according profile (/etc/lynis/default.prf),Plugin 'hardware' enabled according profile (/etc/lynis/default.prf),68,,0,0.23782800911439766,1,Normal
+15:38:02,Plugin 'intrusion-detection' enabled according profile (/etc/lynis/default.prf),Plugin 'intrusion-detection' enabled according profile (/etc/lynis/default.prf),79,,0,0.15647764043187617,1,Normal
+15:38:02,Plugin 'intrusion-prevention' enabled according profile (/etc/lynis/default.prf),Plugin 'intrusion-prevention' enabled according profile (/etc/lynis/default.prf),80,,0,0.14584414451037642,1,Normal
+15:38:02,Plugin 'kernel' enabled according profile (/etc/lynis/default.prf),Plugin 'kernel' enabled according profile (/etc/lynis/default.prf),66,,0,0.25070962473637,1,Normal
+15:38:02,Plugin 'malware' enabled according profile (/etc/lynis/default.prf),Plugin 'malware' enabled according profile (/etc/lynis/default.prf),67,,0,0.24862501860839986,1,Normal
+15:38:02,Plugin 'memory' enabled according profile (/etc/lynis/default.prf),Plugin 'memory' enabled according profile (/etc/lynis/default.prf),66,,0,0.25070962473637,1,Normal
+15:38:02,Plugin 'nginx' enabled according profile (/etc/lynis/default.prf),Plugin 'nginx' enabled according profile (/etc/lynis/default.prf),65,,0,0.24919827932719568,1,Normal
+15:38:02,Plugin 'pam' enabled according profile (/etc/lynis/default.prf),Plugin 'pam' enabled according profile (/etc/lynis/default.prf),63,,0,0.2445348941328208,1,Normal
+15:38:02,Plugin 'processes' enabled according profile (/etc/lynis/default.prf),Plugin 'processes' enabled according profile (/etc/lynis/default.prf),69,,0,0.23540231560428476,1,Normal
+15:38:02,Plugin 'security-modules' enabled according profile (/etc/lynis/default.prf),Plugin 'security-modules' enabled according profile (/etc/lynis/default.prf),76,,0,0.1878296994140744,1,Normal
+15:38:02,Plugin 'software' enabled according profile (/etc/lynis/default.prf),Plugin 'software' enabled according profile (/etc/lynis/default.prf),68,,0,0.23782800911439766,1,Normal
+15:38:02,Plugin 'system-integrity' enabled according profile (/etc/lynis/default.prf),Plugin 'system-integrity' enabled according profile (/etc/lynis/default.prf),76,,0,0.1878296994140744,1,Normal
+15:38:02,Plugin 'systemd' enabled according profile (/etc/lynis/default.prf),Plugin 'systemd' enabled according profile (/etc/lynis/default.prf),67,,0,0.24862501860839986,1,Normal
+15:38:02,Plugin 'users' enabled according profile (/etc/lynis/default.prf),Plugin 'users' enabled according profile (/etc/lynis/default.prf),65,,0,0.24919827932719568,1,Normal
+15:38:02,Plugin 'krb5' enabled according profile (/etc/lynis/default.prf),Plugin 'krb5' enabled according profile (/etc/lynis/default.prf),64,,0,0.24628504560283915,1,Normal
+15:38:02,Plugin 'debian' enabled according profile (/etc/lynis/default.prf),Plugin 'debian' enabled according profile (/etc/lynis/default.prf),66,,0,0.25070962473637,1,Normal
+15:38:04,Reading profile/configuration /etc/lynis/custom.prf,Reading profile/configuration /etc/lynis/custom.prf,51,,0,0.241030785716372,1,Normal
+15:38:04,Set option to default value: NTPD_ROLE --> client,Set option to default value: NTPD_ROLE --> client,49,,0,0.20826467894557654,1,Normal
+15:38:04,====,====,4,,0,0.08216984489428547,1,Normal
+15:38:04,EOL check: 255,EOL check: 255,14,,0,-0.00879818763401441,-1,Anomalía
+15:38:04,Note: the end-of-life of 'Ubuntu 26.04 LTS' could not be checked. Entry is missing in db/software-eol.db?,Note: the end-of-life of 'Ubuntu 26.04 LTS' could not be checked. Entry is missing in db/software-eol.db?,105,,1,-0.18354584683321562,-1,Anomalía
+15:38:04,Program version:           3.1.6,Program version:           3.1.6,32,,0,0.21164271026318598,1,Normal
+15:38:04,Operating system:          Linux,Operating system:          Linux,32,,0,0.21164271026318598,1,Normal
+15:38:04,Operating system name:     Ubuntu,Operating system name:     Ubuntu,33,,0,0.1797204125342337,1,Normal
+15:38:04,Operating system version:  26.04,Operating system version:  26.04,32,,0,0.21164271026318598,1,Normal
+15:38:04,Kernel version:            7.0.0,Kernel version:            7.0.0,32,,0,0.21164271026318598,1,Normal
+15:38:04,Kernel version (full):     7.0.0-30-generic,Kernel version (full):     7.0.0-30-generic,43,,0,0.19671480217336895,1,Normal
+15:38:04,Hardware platform:         x86_64,Hardware platform:         x86_64,33,,0,0.1797204125342337,1,Normal
+15:38:04,-----------------------------------------------------,-----------------------------------------------------,53,,0,0.24981475800030267,1,Normal
+15:38:04,Hostname:                  AlexbyPalchay,Hostname:                  AlexbyPalchay,40,,0,0.19888371713609115,1,Normal
+15:38:04,Auditor:                   [Not Specified],Auditor:                   [Not Specified],42,,0,0.20592135555675967,1,Normal
+15:38:04,Profiles:                  /etc/lynis/default.prf /etc/lynis/custom.prf,Profiles:                  /etc/lynis/default.prf /etc/lynis/custom.prf,71,,0,0.23293936849023245,1,Normal
+15:38:04,Work directory:            /home/alexbi/scripts,Work directory:            /home/alexbi/scripts,47,,0,0.20335361765368581,1,Normal
+15:38:04,Include directory:         /usr/share/lynis/include,Include directory:         /usr/share/lynis/include,51,,0,0.241030785716372,1,Normal
+15:38:04,Plugin directory:          /etc/lynis/plugins,Plugin directory:          /etc/lynis/plugins,45,,0,0.20260658676701826,1,Normal
+15:38:04,-----------------------------------------------------,-----------------------------------------------------,53,,0,0.24981475800030267,1,Normal
+15:38:04,Log file:                  /var/log/lynis.log,Log file:                  /var/log/lynis.log,45,,0,0.20260658676701826,1,Normal
+15:38:04,Report file:               /var/log/lynis-report.dat,Report file:               /var/log/lynis-report.dat,52,,0,0.24828394680299742,1,Normal
+15:38:04,Report version:            1.0,Report version:            1.0,30,,0,0.18331401372261025,1,Normal
+15:38:04,-----------------------------------------------------,-----------------------------------------------------,53,,0,0.24981475800030267,1,Normal
+15:38:04,Test category:             all,Test category:             all,30,,0,0.18331401372261025,1,Normal
+15:38:04,Test group:                all,Test group:                all,30,,0,0.18331401372261025,1,Normal
+15:38:04,BusyBox used:              0,BusyBox used:              0,28,,0,0.1352271323514566,1,Normal
+15:38:04,====,====,4,,0,0.08216984489428547,1,Normal
+15:38:04,Test: Checking for program update...,Test: Checking for program update...,36,,0,0.17237696075779418,1,Normal
+15:38:04,Upgrade test skipped due profile option set (skip_upgrade_test),Upgrade test skipped due profile option set (skip_upgrade_test),63,,1,-0.01894121538239868,-1,Anomalía
+15:38:04,Current installed version  : 316,Current installed version  : 316,32,,0,0.21164271026318598,1,Normal
+15:38:04,Latest stable version      : 316,Latest stable version      : 316,32,,0,0.21164271026318598,1,Normal
+15:38:04,No Lynis update available.,No Lynis update available.,26,,0,0.10736424730937455,1,Normal
+15:38:09,====,====,4,,0,0.08216984489428547,1,Normal
+15:38:09,Checking permissions of /usr/share/lynis/include/binaries,Checking permissions of /usr/share/lynis/include/binaries,57,,0,0.2508906229263387,1,Normal
+15:38:09,File permissions are OK,File permissions are OK,23,,0,0.10625925906572253,1,Normal
+15:38:09,====,====,4,,0,0.08216984489428547,1,Normal
+15:38:09,Action: Performing tests from category: System tools,Action: Performing tests from category: System tools,52,,0,0.24828394680299742,1,Normal
+15:38:09,Start scanning for available audit binaries and tools...,Start scanning for available audit binaries and tools...,56,,0,0.24539361695946654,1,Normal
+15:38:09,====,====,4,,0,0.08216984489428547,1,Normal
+15:38:09,Performing test ID CORE-1000 (Check all system binaries),Performing test ID CORE-1000 (Check all system binaries),56,,0,0.24539361695946654,1,Normal
+15:38:09,Status: Starting binary scan...,Status: Starting binary scan...,31,,0,0.1957129982614249,1,Normal
+15:38:09,Test: Checking binaries in directory /snap/bin,Test: Checking binaries in directory /snap/bin,46,,0,0.20376082933127543,1,Normal
+15:38:09,Directory /snap/bin exists. Starting directory scanning...,Directory /snap/bin exists. Starting directory scanning...,58,,0,0.24800487371826263,1,Normal
+15:38:09,Test: Checking binaries in directory /bin,Test: Checking binaries in directory /bin,41,,0,0.21635908605622006,1,Normal
+15:38:09,"Result: directory exists, but is actually a symlink","Result: directory exists, but is actually a symlink",51,,0,0.241030785716372,1,Normal
+15:38:09,Action: checking symlink for file /bin,Action: checking symlink for file /bin,38,,0,0.18889593005762462,1,Normal
+15:38:09,Setting temporary readlinkbinary variable,Setting temporary readlinkbinary variable,41,,0,0.21635908605622006,1,Normal
+15:38:09,Note: Using real readlink binary to determine symlink on /bin,Note: Using real readlink binary to determine symlink on /bin,61,,0,0.23891873367760375,1,Normal
+15:38:09,Result: readlink shows /usr/bin as output,Result: readlink shows /usr/bin as output,41,,0,0.21635908605622006,1,Normal
+15:38:09,"Result: symlink found, pointing to directory /usr/bin","Result: symlink found, pointing to directory /usr/bin",53,,0,0.24981475800030267,1,Normal
+15:38:09,Result: found the path behind this symlink (/bin --> /usr/bin),Result: found the path behind this symlink (/bin --> /usr/bin),62,,0,0.2486629686689406,1,Normal
+15:38:09,Directory /usr/bin exists. Starting directory scanning...,Directory /usr/bin exists. Starting directory scanning...,57,,0,0.2508906229263387,1,Normal
+15:38:09,Found known binary: apt (package manager) - /usr/bin/apt,Found known binary: apt (package manager) - /usr/bin/apt,56,,0,0.24539361695946654,1,Normal
+15:38:09,Found known binary: as (compiler) - /usr/bin/as,Found known binary: as (compiler) - /usr/bin/as,47,,0,0.20335361765368581,1,Normal
+15:38:09,Found known binary: awk (string tool) - /usr/bin/awk,Found known binary: awk (string tool) - /usr/bin/awk,52,,0,0.24828394680299742,1,Normal
+15:38:09,Found known binary: base64 (encoding tool) - /usr/bin/base64,Found known binary: base64 (encoding tool) - /usr/bin/base64,60,,0,0.2432484716582904,1,Normal
+15:38:09,Found known binary: cat (generic file handling) - /usr/bin/cat,Found known binary: cat (generic file handling) - /usr/bin/cat,62,,0,0.2486629686689406,1,Normal
+15:38:09,Found known binary: comm (file compare) - /usr/bin/comm,Found known binary: comm (file compare) - /usr/bin/comm,55,,0,0.24173108223598883,1,Normal
+15:38:09,"Found known binary: curl (browser, download utility) - /usr/bin/curl","Found known binary: curl (browser, download utility) - /usr/bin/curl",68,,0,0.23782800911439766,1,Normal
+15:38:09,Found known binary: cut (text stream editor) - /usr/bin/cut,Found known binary: cut (text stream editor) - /usr/bin/cut,59,,0,0.24778130324100645,1,Normal
+15:38:10,Found known binary: dig (network/dns tool) - /usr/bin/dig,Found known binary: dig (network/dns tool) - /usr/bin/dig,57,,0,0.2508906229263387,1,Normal
+15:38:10,Found known binary: dnsdomainname (DNS domain) - /usr/bin/dnsdomainname,Found known binary: dnsdomainname (DNS domain) - /usr/bin/dnsdomainname,71,,0,0.23293936849023245,1,Normal
+15:38:10,Found known binary: domainname (NIS domain) - /usr/bin/domainname,Found known binary: domainname (NIS domain) - /usr/bin/domainname,65,,0,0.24919827932719568,1,Normal
+15:38:10,Found known binary: dpkg (package management) - /usr/bin/dpkg,Found known binary: dpkg (package management) - /usr/bin/dpkg,61,,0,0.23891873367760375,1,Normal
+15:38:10,Found known binary: file (file type detection) - /usr/bin/file,Found known binary: file (file type detection) - /usr/bin/file,62,,0,0.2486629686689406,1,Normal
+15:38:10,Found known binary: find (search tool) - /usr/bin/find,Found known binary: find (search tool) - /usr/bin/find,54,,0,0.24581801458391328,1,Normal
+15:38:10,Found known binary: getent (query tool for name service switch libraries) - /usr/bin/getent,Found known binary: getent (query tool for name service switch libraries) - /usr/bin/getent,91,,0,0.060497820233322286,1,Normal
+15:38:10,Found known binary: grep (text search) - /usr/bin/grep,Found known binary: grep (text search) - /usr/bin/grep,54,,0,0.24581801458391328,1,Normal
+15:38:10,Found known binary: gzip (compressing utility) - /usr/bin/gzip,Found known binary: gzip (compressing utility) - /usr/bin/gzip,62,,0,0.2486629686689406,1,Normal
+15:38:10,Found known binary: head (text filter) - /usr/bin/head,Found known binary: head (text filter) - /usr/bin/head,54,,0,0.24581801458391328,1,Normal
+15:38:10,Found known binary: ip (IP configuration) - /usr/bin/ip,Found known binary: ip (IP configuration) - /usr/bin/ip,55,,0,0.24173108223598883,1,Normal
+15:38:10,Found known binary: journalctl (systemd journal) - /usr/bin/journalctl,Found known binary: journalctl (systemd journal) - /usr/bin/journalctl,70,,0,0.23764931001638084,1,Normal
+15:38:10,Found known binary: ls (file listing) - /usr/bin/ls,Found known binary: ls (file listing) - /usr/bin/ls,51,,0,0.241030785716372,1,Normal
+15:38:10,Found known binary: lsattr (file attributes) - /usr/bin/lsattr,Found known binary: lsattr (file attributes) - /usr/bin/lsattr,62,,0,0.2486629686689406,1,Normal
+15:38:10,Found known binary: lsblk (block devices) - /usr/bin/lsblk,Found known binary: lsblk (block devices) - /usr/bin/lsblk,58,,0,0.24800487371826263,1,Normal
+15:38:10,Found known binary: lsmod (kernel modules) - /usr/bin/lsmod,Found known binary: lsmod (kernel modules) - /usr/bin/lsmod,59,,0,0.24778130324100645,1,Normal
+15:38:10,Found known binary: lsof (open files) - /usr/bin/lsof,Found known binary: lsof (open files) - /usr/bin/lsof,53,,0,0.24981475800030267,1,Normal
+15:38:10,Note: added -K i to ignore tasks on Linux,Note: added -K i to ignore tasks on Linux,41,,0,0.21635908605622006,1,Normal
+15:38:10,Found known binary: md5sum (hash tool) - /usr/bin/md5sum,Found known binary: md5sum (hash tool) - /usr/bin/md5sum,56,,0,0.24539361695946654,1,Normal
+15:38:10,Found known binary: mount (disk utility) - /usr/bin/mount,Found known binary: mount (disk utility) - /usr/bin/mount,57,,0,0.2508906229263387,1,Normal
+15:38:10,Found /usr/bin/openssl (version 3.5.5),Found /usr/bin/openssl (version 3.5.5),38,,0,0.18889593005762462,1,Normal
+15:38:10,Found /usr/bin/perl (version 5.40.1),Found /usr/bin/perl (version 5.40.1),36,,0,0.17237696075779418,1,Normal
+15:38:10,Found known binary: pgrep (search in process list) - /usr/bin/pgrep,Found known binary: pgrep (search in process list) - /usr/bin/pgrep,67,,0,0.24862501860839986,1,Normal
+15:38:10,Found known binary: ps (process listing) - /usr/bin/ps,Found known binary: ps (process listing) - /usr/bin/ps,54,,0,0.24581801458391328,1,Normal
+15:38:10,Found known binary: python3 (programming language interpreter) - /usr/bin/python3 (version 3.14.4),Found known binary: python3 (programming language interpreter) - /usr/bin/python3 (version 3.14.4),98,,0,-0.006469449652130699,-1,Anomalía
+15:38:10,Found known binary: readlink (follows symlinks) - /usr/bin/readlink,Found known binary: readlink (follows symlinks) - /usr/bin/readlink,67,,0,0.24862501860839986,1,Normal
+15:38:10,Found known binary: resolvectl (systemd-resolved DNS resolver manager) - /usr/bin/resolvectl,Found known binary: resolvectl (systemd-resolved DNS resolver manager) - /usr/bin/resolvectl,92,,0,0.06481265246919399,1,Normal
+15:38:10,Found known binary: sed (text stream editor) - /usr/bin/sed,Found known binary: sed (text stream editor) - /usr/bin/sed,59,,0,0.24778130324100645,1,Normal
+15:38:10,Found known binary: sha1/sha1sum/shasum (crypto hashing) - /usr/bin/sha1sum,Found known binary: sha1/sha1sum/shasum (crypto hashing) - /usr/bin/sha1sum,75,,0,0.19425194406186813,1,Normal
+15:38:10,Found known binary: sha256/sha256sum (crypto hashing) - /usr/bin/sha256sum,Found known binary: sha256/sha256sum (crypto hashing) - /usr/bin/sha256sum,74,,0,0.21431693226212628,1,Normal
+15:38:10,Found known binary: sha1/sha1sum/shasum (crypto hashing) - /usr/bin/shasum,Found known binary: sha1/sha1sum/shasum (crypto hashing) - /usr/bin/shasum,74,,0,0.21431693226212628,1,Normal
+15:38:10,Found known binary: sort (sort data streams) - /usr/bin/sort,Found known binary: sort (sort data streams) - /usr/bin/sort,60,,0,0.2432484716582904,1,Normal
+15:38:10,Found known binary: ss (show sockets) - /usr/bin/ss,Found known binary: ss (show sockets) - /usr/bin/ss,51,,0,0.241030785716372,1,Normal
+15:38:10,Found known binary: ssh-keyscan (scanner for SSH keys) - /usr/bin/ssh-keyscan,Found known binary: ssh-keyscan (scanner for SSH keys) - /usr/bin/ssh-keyscan,77,,0,0.18757645464941908,1,Normal
+15:38:10,Found known binary: stat (file information) - /usr/bin/stat,Found known binary: stat (file information) - /usr/bin/stat,59,,0,0.24778130324100645,1,Normal
+15:38:10,Found known binary: strings (text strings search) - /usr/bin/strings,Found known binary: strings (text strings search) - /usr/bin/strings,68,,0,0.23782800911439766,1,Normal
+15:38:10,Found known binary: systemctl (client to systemd) - /usr/bin/systemctl,Found known binary: systemctl (client to systemd) - /usr/bin/systemctl,70,,0,0.23764931001638084,1,Normal
+15:38:10,Found known binary: systemd-analyze (systemd service analysis tool) - /usr/bin/systemd-analyze,Found known binary: systemd-analyze (systemd service analysis tool) - /usr/bin/systemd-analyze,94,,0,0.04136984326229709,1,Normal
+15:38:10,Found known binary: tail (text filter) - /usr/bin/tail,Found known binary: tail (text filter) - /usr/bin/tail,54,,0,0.24581801458391328,1,Normal
+15:38:10,Found known binary: timedatectl (timedate client) - /usr/bin/timedatectl,Found known binary: timedatectl (timedate client) - /usr/bin/timedatectl,72,,0,0.22932108229384873,1,Normal
+15:38:10,Found known binary: tr (text transformation) - /usr/bin/tr,Found known binary: tr (text transformation) - /usr/bin/tr,58,,0,0.24800487371826263,1,Normal
+15:38:10,Found known binary: uname (operating system details) - /usr/bin/uname,Found known binary: uname (operating system details) - /usr/bin/uname,69,,0,0.23540231560428476,1,Normal
+15:38:10,Found known binary: uniq (text manipulation utility) - /usr/bin/uniq,Found known binary: uniq (text manipulation utility) - /usr/bin/uniq,68,,0,0.23782800911439766,1,Normal
+15:38:10,Found known binary: wc (word count) - /usr/bin/wc,Found known binary: wc (word count) - /usr/bin/wc,49,,0,0.20826467894557654,1,Normal
+15:38:10,Found /usr/bin/wget (version 1.25.0),Found /usr/bin/wget (version 1.25.0),36,,0,0.17237696075779418,1,Normal
+15:38:10,Found known binary: xargs (command output redirection) - /usr/bin/xargs,Found known binary: xargs (command output redirection) - /usr/bin/xargs,71,,0,0.23293936849023245,1,Normal
+15:38:10,Found known binary: zgrep (text search for compressed files) - /usr/bin/zgrep,Found known binary: zgrep (text search for compressed files) - /usr/bin/zgrep,77,,0,0.18757645464941908,1,Normal
+15:38:10,Test: Checking binaries in directory /sbin,Test: Checking binaries in directory /sbin,42,,0,0.20592135555675967,1,Normal
+15:38:10,"Result: directory exists, but is actually a symlink","Result: directory exists, but is actually a symlink",51,,0,0.241030785716372,1,Normal
+15:38:10,Action: checking symlink for file /sbin,Action: checking symlink for file /sbin,39,,0,0.19159447638540728,1,Normal
+15:38:10,Note: Using real readlink binary to determine symlink on /sbin,Note: Using real readlink binary to determine symlink on /sbin,62,,0,0.2486629686689406,1,Normal
+15:38:10,Result: readlink shows /usr/sbin as output,Result: readlink shows /usr/sbin as output,42,,0,0.20592135555675967,1,Normal
+15:38:10,"Result: symlink found, pointing to directory /usr/sbin","Result: symlink found, pointing to directory /usr/sbin",54,,0,0.24581801458391328,1,Normal
+15:38:10,Result: found the path behind this symlink (/sbin --> /usr/sbin),Result: found the path behind this symlink (/sbin --> /usr/sbin),64,,0,0.24628504560283915,1,Normal
+15:38:10,Directory /usr/sbin exists. Starting directory scanning...,Directory /usr/sbin exists. Starting directory scanning...,58,,0,0.24800487371826263,1,Normal
+15:38:10,Found known binary: aa-status (apparmor component) - /usr/sbin/aa-status,Found known binary: aa-status (apparmor component) - /usr/sbin/aa-status,72,,0,0.22932108229384873,1,Normal
+15:38:10,Found known binary: blkid (information about block devices) - /usr/sbin/blkid,Found known binary: blkid (information about block devices) - /usr/sbin/blkid,77,,0,0.18757645464941908,1,Normal
+15:38:10,Found known binary: dmidecode (hardware collector tool) - /usr/sbin/dmidecode,Found known binary: dmidecode (hardware collector tool) - /usr/sbin/dmidecode,77,,0,0.18757645464941908,1,Normal
+15:38:10,Found known binary: getcap (kernel capabilities) - /usr/sbin/getcap,Found known binary: getcap (kernel capabilities) - /usr/sbin/getcap,67,,0,0.24862501860839986,1,Normal
+15:38:10,Found known binary: grpck (consistency checker) - /usr/sbin/grpck,Found known binary: grpck (consistency checker) - /usr/sbin/grpck,65,,0,0.24919827932719568,1,Normal
+15:38:10,Found known binary: ip (IP configuration) - /usr/sbin/ip,Found known binary: ip (IP configuration) - /usr/sbin/ip,56,,0,0.24539361695946654,1,Normal
+15:38:10,Found known binary: iptables (firewall) - /usr/sbin/iptables,Found known binary: iptables (firewall) - /usr/sbin/iptables,60,,0,0.2432484716582904,1,Normal
+15:38:10,Found known binary: iptables-save (firewall) - /usr/sbin/iptables-save,Found known binary: iptables-save (firewall) - /usr/sbin/iptables-save,70,,0,0.23764931001638084,1,Normal
+15:38:10,Found known binary: logrotate (log rotation tool) - /usr/sbin/logrotate,Found known binary: logrotate (log rotation tool) - /usr/sbin/logrotate,71,,0,0.23293936849023245,1,Normal
+15:38:10,Found known binary: lsmod (kernel modules) - /usr/sbin/lsmod,Found known binary: lsmod (kernel modules) - /usr/sbin/lsmod,60,,0,0.2432484716582904,1,Normal
+15:38:10,Found known binary: modprobe (kernel modules) - /usr/sbin/modprobe,Found known binary: modprobe (kernel modules) - /usr/sbin/modprobe,66,,0,0.25070962473637,1,Normal
+15:38:10,Found known binary: nft (nftables client) - /usr/sbin/nft,Found known binary: nft (nftables client) - /usr/sbin/nft,57,,0,0.2508906229263387,1,Normal
+15:38:10,Found known binary: service (system services) - /usr/sbin/service,Found known binary: service (system services) - /usr/sbin/service,65,,0,0.24919827932719568,1,Normal
+15:38:10,Found known binary: swapon (swap device tool) - /usr/sbin/swapon,Found known binary: swapon (swap device tool) - /usr/sbin/swapon,64,,0,0.24628504560283915,1,Normal
+15:38:10,Found known binary: sysctl (kernel parameters) - /usr/sbin/sysctl,Found known binary: sysctl (kernel parameters) - /usr/sbin/sysctl,65,,0,0.24919827932719568,1,Normal
+15:38:10,Found known binary: tune2fs (file system tool) - /usr/sbin/tune2fs,Found known binary: tune2fs (file system tool) - /usr/sbin/tune2fs,66,,0,0.25070962473637,1,Normal
+15:38:10,Test: Checking binaries in directory /usr/bin,Test: Checking binaries in directory /usr/bin,45,,0,0.20260658676701826,1,Normal
+15:38:10,Result: Skipping this directory as it was already scanned,Result: Skipping this directory as it was already scanned,57,,0,0.2508906229263387,1,Normal
+15:38:10,Result: Directory /usr/bin skipped,Result: Directory /usr/bin skipped,34,,1,-0.10884910302905726,-1,Anomalía
+15:38:10,Test: Checking binaries in directory /usr/sbin,Test: Checking binaries in directory /usr/sbin,46,,0,0.20376082933127543,1,Normal
+15:38:10,Result: Skipping this directory as it was already scanned,Result: Skipping this directory as it was already scanned,57,,0,0.2508906229263387,1,Normal
+15:38:10,Result: Directory /usr/sbin skipped,Result: Directory /usr/sbin skipped,35,,1,-0.10398644848537053,-1,Anomalía
+15:38:10,Test: Checking binaries in directory /usr/local/bin,Test: Checking binaries in directory /usr/local/bin,51,,0,0.241030785716372,1,Normal
+15:38:10,Directory /usr/local/bin exists. Starting directory scanning...,Directory /usr/local/bin exists. Starting directory scanning...,63,,0,0.2445348941328208,1,Normal
+15:38:10,Test: Checking binaries in directory /usr/local/sbin,Test: Checking binaries in directory /usr/local/sbin,52,,0,0.24828394680299742,1,Normal
+15:38:10,Directory /usr/local/sbin exists. Starting directory scanning...,Directory /usr/local/sbin exists. Starting directory scanning...,64,,0,0.24628504560283915,1,Normal
+15:38:10,"Discovered directories: /snap/bin,/usr/bin,/usr/sbin,/usr/local/bin,/usr/local/sbin","Discovered directories: /snap/bin,/usr/bin,/usr/sbin,/usr/local/bin,/usr/local/sbin",83,,0,0.07701195604387834,1,Normal
+15:38:10,Result: found 1995 binaries including 20 set-uid and 6 set-gid,Result: found 1995 binaries including 20 set-uid and 6 set-gid,62,,0,0.2486629686689406,1,Normal
+15:38:10,Result: set-uid binaries: /usr/bin/chfn /usr/bin/chsh /usr/bin/fusermount /usr/bin/fusermount3 /usr/bin/gpasswd /usr/bin/mount /usr/bin/ntfs-3g /usr/bin/passwd /usr/bin/pkexec /usr/bin/su /usr/bin/su-rs /usr/bin/sudo /usr/bin/sudo-rs /usr/bin/sudo.ws /usr/bin/sudoedit /usr/bin/sudoedit-rs /usr/bin/umount /usr/sbin/mount.ntfs /usr/sbin/mount.ntfs-3g /usr/sbin/pppd ,Result: set-uid binaries: /usr/bin/chfn /usr/bin/chsh /usr/bin/fusermount /usr/bin/fusermount3 /usr/bin/gpasswd /usr/bin/mount /usr/bin/ntfs-3g /usr/bin/passwd /usr/bin/pkexec /usr/bin/su /usr/bin/su-rs /usr/bin/sudo /usr/bin/sudo-rs /usr/bin/sudo.ws /usr/bin/sudoedit /usr/bin/sudoedit-rs /usr/bin/umount /usr/sbin/mount.ntfs /usr/sbin/mount.ntfs-3g /usr/sbin/pppd ,366,,0,-0.24156372782861624,-1,Anomalía
+15:38:10,Result: set-gid binaries: /usr/bin/chage /usr/bin/crontab /usr/bin/expiry /usr/bin/ssh-agent /usr/sbin/pam_extrausers_chkpwd /usr/sbin/unix_chkpwd ,Result: set-gid binaries: /usr/bin/chage /usr/bin/crontab /usr/bin/expiry /usr/bin/ssh-agent /usr/sbin/pam_extrausers_chkpwd /usr/sbin/unix_chkpwd ,147,,0,-0.14005253593664546,-1,Anomalía
+15:38:10,====,====,4,,0,0.08216984489428547,1,Normal
+15:38:10,Informational: package manager is used,Informational: package manager is used,38,,0,0.18889593005762462,1,Normal
+15:38:10,Test: Determine if this system is a virtual machine,Test: Determine if this system is a virtual machine,51,,0,0.241030785716372,1,Normal
+15:38:10,Result: facter utility not found,Result: facter utility not found,32,,0,0.21164271026318598,1,Normal
+15:38:10,Test: trying to guess virtualization technology with systemd-detect-virt,Test: trying to guess virtualization technology with systemd-detect-virt,72,,0,0.22932108229384873,1,Normal
+15:38:10,Result: found oracle,Result: found oracle,20,,0,0.0748095907432128,1,Normal
+15:38:10,"Result: skipped lscpu test, as we already found machine type","Result: skipped lscpu test, as we already found machine type",60,,1,0.04904863187674202,1,Normal
+15:38:10,"Result: skipped dmidecode test, as we already found machine type","Result: skipped dmidecode test, as we already found machine type",64,,1,-0.04206589165851515,-1,Anomalía
+15:38:10,"Result: skipped processes test, as we already found platform","Result: skipped processes test, as we already found platform",60,,1,0.04904863187674202,1,Normal
+15:38:10,"Result: skipped Amazon EC2 test, as we already found platform","Result: skipped Amazon EC2 test, as we already found platform",61,,1,0.0018705755119260425,1,Normal
+15:38:10,"Result: skipped sysctl test, as we already found platform","Result: skipped sysctl test, as we already found platform",57,,1,-0.05190564665638808,-1,Anomalía
+15:38:10,"Result: skipped lshw test, as we already found machine type","Result: skipped lshw test, as we already found machine type",59,,1,-0.003473925950719714,-1,Anomalía
+15:38:10,"Result: found virtual machine (type: virtualbox, Oracle VM VirtualBox)","Result: found virtual machine (type: virtualbox, Oracle VM VirtualBox)",70,,0,0.23764931001638084,1,Normal
+15:38:10,Result: Lynis is not running in container,Result: Lynis is not running in container,41,,0,0.21635908605622006,1,Normal
+15:38:10,Result: system is using systemd,Result: system is using systemd,31,,0,0.1957129982614249,1,Normal
+15:38:10,====,====,4,,0,0.08216984489428547,1,Normal
+15:38:10,Action: Performing plugin tests,Action: Performing plugin tests,31,,0,0.1957129982614249,1,Normal
+15:38:10,Searching plugins...,Searching plugins...,20,,0,0.0748095907432128,1,Normal
+15:38:10,Found plugin file: /etc/lynis/plugins/plugin_debian_phase1,Found plugin file: /etc/lynis/plugins/plugin_debian_phase1,58,,0,0.24800487371826263,1,Normal
+15:38:10,Action: checking plugin status in profile: /etc/lynis/default.prf,Action: checking plugin status in profile: /etc/lynis/default.prf,65,,0,0.24919827932719568,1,Normal
+15:38:10,Result: plugin enabled in profile (/etc/lynis/default.prf),Result: plugin enabled in profile (/etc/lynis/default.prf),58,,0,0.24800487371826263,1,Normal
+15:38:10,Action: checking plugin status in profile: /etc/lynis/custom.prf,Action: checking plugin status in profile: /etc/lynis/custom.prf,64,,0,0.24628504560283915,1,Normal
+15:38:11,Result: plugin debian is enabled,Result: plugin debian is enabled,32,,0,0.21164271026318598,1,Normal
+15:38:11,Checking permissions of /etc/lynis/plugins/plugin_debian_phase1,Checking permissions of /etc/lynis/plugins/plugin_debian_phase1,63,,0,0.2445348941328208,1,Normal
+15:38:11,File permissions are OK,File permissions are OK,23,,0,0.10625925906572253,1,Normal
+15:38:11,Including plugin file: /etc/lynis/plugins/plugin_debian_phase1 (version: 1.0.1),Including plugin file: /etc/lynis/plugins/plugin_debian_phase1 (version: 1.0.1),79,,0,0.15647764043187617,1,Normal
+15:38:11,====,====,4,,0,0.08216984489428547,1,Normal
+15:38:11,Action: Performing tests from category: Debian Tests,Action: Performing tests from category: Debian Tests,52,,0,0.24828394680299742,1,Normal
+15:38:11,====,====,4,,0,0.08216984489428547,1,Normal
+15:38:11,Performing test ID DEB-0001 (Check for system binaries required by Debian Tests),Performing test ID DEB-0001 (Check for system binaries required by Debian Tests),80,,0,0.14584414451037642,1,Normal
+15:38:11,Status: Starting binary scan...,Status: Starting binary scan...,31,,0,0.1957129982614249,1,Normal
+15:38:11,Test: Checking binaries in directory /bin,Test: Checking binaries in directory /bin,41,,0,0.21635908605622006,1,Normal
+15:38:11,Directory /bin exists. Starting directory scanning...,Directory /bin exists. Starting directory scanning...,53,,0,0.24981475800030267,1,Normal
